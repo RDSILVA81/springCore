@@ -1,4 +1,4 @@
-package com.learn.springCore.service;
+package com.learn.springCore.component;
 
 import org.springframework.stereotype.Component;
 

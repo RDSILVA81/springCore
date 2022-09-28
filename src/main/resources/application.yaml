@@ -2,3 +2,9 @@ spring:
   output:
     ansi:
       enabled: always
+  config:
+    import: secrets.yaml
+
+email:
+  from: from@email.com
+  to: to@email.com
