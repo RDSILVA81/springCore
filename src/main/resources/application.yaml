@@ -8,3 +8,7 @@ spring:
 email:
   from: from@email.com
   to: to@email.com
+
+fixedRate:
+  in:
+    milliseconds: 6000
