@@ -1,13 +1,15 @@
 package com.learn.springCore;
 
-import com.learn.springCore.factory.ReferenceNumberFactory;
+import com.learn.springCore.factory.ReferenceNumber;
 import org.junit.jupiter.api.Test;
 
 public class FactoryTest {
 
     @Test
     void createObjectSuccess(){
-        var referenceNUmber = ReferenceNumberFactory.from("1234-22222-33333");
-        System.out.println(referenceNUmber.toString());
+        var result =ReferenceNumber.fromString("1234-2222-3333");
+        System.out.println(result.getPositionOne());
+        System.out.println(result.getPositionTwo());
+        System.out.println(result.getPositionThree());
     }
 }
