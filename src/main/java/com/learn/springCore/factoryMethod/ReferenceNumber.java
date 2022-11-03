@@ -1,6 +1,5 @@
-package com.learn.springCore.factory;
+package com.learn.springCore.factoryMethod;
 
-import lombok.Builder;
 import lombok.Getter;
 
 @Getter
